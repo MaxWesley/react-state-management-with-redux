@@ -1,12 +1,7 @@
 import "./index.module.css";
 import { FormEvent, useEffect, useMemo } from "react";
 
-import { 
-  setUsername, 
-  setPassword,
-  checkIfIsInvUsername,
-  checkIfIsInvalidPassword
-} from './formLogin';
+import { checkIfIsInvalidPassword, checkIfIsInvUsername, setPassword, setUsername } from "../../features/formLogin";
 
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 

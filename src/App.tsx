@@ -1,6 +1,6 @@
 import "./App.module.css";
 
-import { FormLogin } from "./features/FormLogin";
+import { FormLogin } from "./components/FormLogin";
 
 function App() {
   return (

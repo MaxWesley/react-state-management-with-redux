@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import formLoginReducer from '../features/FormLogin/formLogin';
+import formLoginReducer from '../features/formLogin';
 
 export const store = configureStore({
   reducer: {
