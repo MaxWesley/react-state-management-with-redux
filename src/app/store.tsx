@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import counterReducer from '../features/counter/counterSlice';
+import formLoginReducer from '../features/FormLogin/formLogin';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer
+    formLogin: formLoginReducer
   }
 });
 
