@@ -1,8 +1,4 @@
 
-import { useSelector, useDispatch } from 'react-redux';
-
-import { RootState } from '../../app/store';
-
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 
 import { decrement, increment } from './counterSlice';
